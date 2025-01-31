@@ -1,331 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shubhi's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header class="header" id="home">
-        <a href="" class="logo">Shubhi's <p style="font-size: 15px; margin-top: -8px;">Portfolio</p></a>
+      <a href="" class="logo"
+        >Shubhi's
+        <p style="font-size: 15px; margin-top: -8px">Portfolio</p></a
+      >
 
-        <input type="checkbox" id="check">
-        <label for="check" class="icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-x' id="close-icon"></i>
-        </label>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
 
-        <nav class="navbar">
-            <a href="#Home" style="--i:0;">Home</a>
-            <a href="#about" style="--i:1;">About</a>
-            <a href="#skills" style="--i:2;">Skills</a>
-            <a href="#experience" style="--i:4;">Experience</a>
-            <a href="#certifications" style="--i:3;">Certifications</a>
-            <a href="#projects" style="--i:3;">Projects</a>
-            <a href="#contact" style="--i:4;">Contact</a>
-        </nav>
+      <nav class="navbar">
+        <a href="#Home" style="--i: 0">Home</a>
+        <a href="#about" style="--i: 1">About</a>
+        <a href="#skills" style="--i: 2">Skills</a>
+        <a href="#experience" style="--i: 3">Experience</a>
+        <a href="#certifications" style="--i: 4">Certifications</a>
+        <a href="#projects" style="--i: 5">Projects</a>
+        <a href="#contact" style="--i: 6">Contact</a>
+      </nav>
     </header>
 
     <section class="firstsection">
-        <div class="leftsection">
-            <p>Hi, My Name is <br> <span class="purple">Shubhi</span></p>
-            <div>
-                <p style="font-size: 2rem; margin-top: -30px;">and I am a passionate</p>
-            </div>
-            <span id="element"></span>
+      <div class="leftsection">
+        <p>
+          Hi, My Name is <br />
+          <span class="purple">Shubhi</span>
+        </p>
+        <div>
+          <p style="font-size: 2rem; margin-top: -30px">
+            and I am a passionate
+          </p>
         </div>
-        <div class="rightsection"><img src="work.gif" alt=""></div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection"><img src="work.gif" alt="" /></div>
     </section>
 
-    <hr id="about">
+    <hr id="about" />
 
-    <section style="text-align: center;">
-        <h2 style="font-size: 3rem; color:#5e3051;">About</h2>
+    <section style="text-align: center">
+      <h2 style="font-size: 3rem; color: #5e3051">About</h2>
     </section>
 
-    <hr style="margin-bottom: 130px;">
+    <hr style="margin-bottom: 130px" />
 
     <section class="about">
-        <div class="about-left">
-            <img src="profile.jpg" alt="">
-        </div>
-        <div class="about-right">
-            <h4>Introduction</h4>
-            <p> I am <span style="color: rgb(108, 36, 98); font-weight: 700;">Shubhi Soni</span>, a motivated Pre-Final Year Computer Science Engineering
-                student and a passionate data enthusiast.Along with my studies, I am dedicated to seek an internship opportunity in analytics to apply
-                knowledge in practical settings, enhance analytical skills, develop innovative projects to gain valuable industry experience
-                My goal is to leverage my analytical skills and knowledge to make a meaningful impact while embracing the challenges that come 
-                with continuous learning and growth.</p>
-        </div>
+      <div class="about-left">
+        <img src="profile.jpg" alt="" />
+      </div>
+      <div class="about-right">
+        <h4>Introduction</h4>
+        <p>
+          I am
+          <span style="color: rgb(108, 36, 98); font-weight: 700"
+            >Shubhi Soni</span
+          >, a motivated Pre-Final Year Computer Science Engineering student and
+          a passionate data enthusiast.Along with my studies, I am dedicated to
+          seek an internship opportunity in analytics to apply knowledge in
+          practical settings, enhance analytical skills, develop innovative
+          projects to gain valuable industry experience.</p>
+            <br>
+
+        <p>My goal is to leverage
+          my analytical skills and knowledge to make a meaningful impact while
+          embracing the challenges that come with continuous learning and
+          growth.
+        </p>
+        <a
+          href="Shubhi Soni_CV.pdf"
+          download="Shubhi Soni_CV"
+          class="resume-button"
+          >Download Resume</a
+        >
+      </div>
     </section>
 
-    
-    <hr style="margin-top: 200px;" id="skills">
 
     <!-- Skills Section -->
-    <section class="skills" style="text-align: center;padding: 4rem;">
-        <h2 style="font-size: 3rem; color: #5e3051;">Skills</h2>
-    
-        <div class="skills-container" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; margin:4 rem;">
-            <div class="skill-card">
-                <h3>Programming Languages</h3>
-                <p>Python, R, SQL</p>
-            </div>
-            <div class="skill-card">
-                <h3>Tools</h3>
-                <p>Excel,Tableau, Power BI</p>
-            </div>
-            <div class="skill-card">
-                <h3>Technologies</h3>
-                <p>Pandas, Numpy, Jupyter Notebook, GitHub, Visual Studio Code</p>
-            </div>
-            <div class="skill-card">
-                <h3>Data Analysis</h3>
-                <p>Statistical Analysis, SQL Queries, Data Visualization, Data Cleaning, Data Modeling</p>
-            </div>
+    <hr style="margin-top: 200px" id="skills" />
+
+    <section style="text-align: center">
+      <h2 style="font-size: 3rem; color: #5e3051">Skills</h2>
+    </section>
+    <hr>
+      <div
+        class="skills-container"
+      >
+        <div class="skill-card">
+            <i class="bx bx-code-alt"></i>
+          <h3>Programming Languages</h3>
+          <p>Python, R, SQL</p>
         </div>
+        <div class="skill-card">
+            <i class="bx bx-data"></i>
+          <h3>Tools</h3>
+          <p>Excel,Tableau, Power BI</p>
+        </div>
+        <div class="skill-card">
+            <i class="bx bx-chip"></i>
+          <h3>Technologies</h3>
+          <p>Pandas, Numpy, Jupyter Notebook, GitHub, Visual Studio Code</p>
+        </div>
+        <div class="skill-card">
+            <i class="bx bx-line-chart"></i>
+          <h3>Data Analysis</h3>
+          <p>
+            Statistical Analysis, SQL Queries, Data Visualization, Data
+            Cleaning, Data Modeling
+          </p>
+        </div>
+        <div class="skill-card">
+          <i class="bx bx-brain"></i>
+        <h3>Soft Skills</h3>
+        <p>
+          Communication, Problem Solving, Attention to Detail, Analytical Thinking, Business Acumen
+        </p>
+      </div>
+      </div>
     </section>
 
-    <hr style="margin-top: 100px;" id="experience">
+   
 
-<!-- Experience Section -->
-<section class="experience" style="padding-top:2 rem;">
-    <h2>Experience</h2>
-    <div class="experience-container">
-        <div class="experience-card">
-            <h3>Edunet Foundation</h3>
-            <p><strong>AI & Cloud Intern</strong><br>(July'24- Aug'24)</p>
-            <p>Leveraged SkillsBuild and IBM Cloud for exploring emerging technologies in AI and Cloud Computing.</p>
-            <a href="https://media.licdn.com/dms/image/v2/D4D2DAQFbJDq4BEnkrA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723617063415?e=1738422000&v=beta&t=LVIv3gmYpvqFd9VSbsfy7aQ_qhQpBaS2HlCxROr8p8w" target="_blank" class="exp-link">Certificate of Completion</a>
-        </div>
-        <div class="experience-card">
-            <h3>YBI Foundation</h3>
-            <p><strong>Python Programming Intern </strong><br>(June'24 - July'24)</p>
-            <p>Contributed to projects and training focused on technical development and skill enhancement.</p>
-            <a href="https://media.licdn.com/dms/image/v2/D4D2DAQGRKqUYTC2zhQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720886477749?e=1738422000&v=beta&t=LS1bnER4MwTiOankUiJFspmxZ0pmdMPMblXLy6yJV2g" target="_blank" class="exp-link">Certificate of Completion</a>
-        </div>
-    </div>
-</section>
+    <!-- Experience Section -->
+    <hr style="margin-top: 100px" id="experience" />
 
-
-    <hr style="margin-top: 100px;" id="certifications">
-
-    <!-- Certifications Section -->
-    <section class="certifications" style="text-align: center;padding: 2rem">
-        <h2 style="font-size: 3rem;color: #5e3051;">Certifications</h2>
-        
-        <ul style="list-style-type: none; margin-top: 2rem;">
-            <li style="margin-bottom: 1rem;"><strong>Career Essentials in Data Analysis</strong><br>Microsoft and LinkedIn Learning (2023)</li>
-            <li style="margin-bottom: 1rem;"><strong>Analyst Certification</strong><br>Tableau (2023)</li>
-            <li style="margin-bottom: 1rem;"><strong>Python Essentials</strong><br>Cisco & OpenEDG Python Institute (2024)</li>
-        </ul>
+    <section style="text-align: center">
+      <h2 style="font-size: 3rem; color: #5e3051">Experience</h2>
     </section>
-
-
-        <!-- Projects Section -->
-        <hr style="margin-top: 100px;"id="projects">
-
-        <section style="text-align: center;padding: 2rem">
-            <h2 style="font-size: 3rem; color:#5e3051;">Projects</h2>
-        </section>
-    
-    
-        <section class="projects" style="padding:4 rem; margin-top: 2rem;">
-            <div class="project">
-                <img src="project3.jpg" alt="Project 1">
-                <h3>Customer Churn Analysis</h3>
-                <p><strong>SQL | Power BI | Machine Learning</strong></p>
-                <p>Leveraging data extraction and preprocessing,interactive visualizations,
-                     and Machine Learning to predict customer churn. Features include Random Forest Algo., and actionable insights to enhance retention strategies.</p>
-                <a href="https://github.com/shubhisoni13/Churn-Analysis-n-Predictions" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project1.jpg" alt="Project 2">
-                <h3>Ola Rides Analysis</h3>
-                <p><strong>SQL | Power BI | Excel </strong></p>
-                <p>Conducted comprehensive analysis of Ola ride data to identify revenue trends and ride patterns.
-                Developed interactive dashboards to support data-driven decisions and improve operational efficiency</p>
-                <a href="https://github.com/shubhisoni13/Ola-Analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project2.jpg" alt="Project 3">
-                <h3>Blinkit Insights</h3>
-                <p><strong>Power BI | Excel | DAX</strong></p>
-                <p>Analyzed Blinkit's order data to identify trends in order patterns and improve delivery processes.
-                Optimized data query performance using DAX, reducing query time significantly.
-                </p>
-                <a href="https://github.com/shubhisoni13/Blinkit-analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project4.jpg" alt="Project 3">
-                <h3>Amazon Sales Insights</h3>
-                <p><strong>SQL | Power BI | Excel </strong></p>
-                <p>Analyzed global sales data to identify trends and optimize strategies, leading to a 10% increase in sales.
-                Created an interactive dashboard to visualize key metrics and drive strategic decisions.
-                    </p>
-                <a href="https://github.com/shubhisoni13/Amazon-Global-Analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project5.jpg" alt="Project 3">
-                <h3>Wipro Stock Analysis</h3>
-                <p><strong>Power BI | Excel | DAX</strong></p>
-                <p>Analyzed Wipro's stock performance, providing investment insights through financial trend analysis.
-                    Developed interactive dashboards to visualize stock movements and market trends</p>
-                <a href="https://github.com/shubhisoni13/Wipro-Stock-Analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project8.jpg" alt="Project 3">
-                <h3>Zomato Advanced SQL Analysis </h3>
-                <p><strong> Advanced SQL | Excel </strong></p>
-                <p>Performed advanced SQL queries to uncover trends in customer ratings, popular cuisines and location preferences.
-                     Optimized data extraction and reporting processes, improving business strategy efficiency.</p>
-                <a href="https://github.com/shubhisoni13/Zomato-Advanced-SQL-Project" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project12.jpg" alt="Project 3">
-                <h3>Netflix Trend Analysis</h3>
-                <p><strong>Python | Jupyter Notebook | Numpy | Pandas</strong></p>
-                <p>Analyzed user behaviour and viewing patterns to predict future content consumption trends.
-                    Optimized content strategy based on data insights.</p>
-                <a href="https://github.com/shubhisoni13/Netflix-Analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project9.jpg" alt="Project 3">
-                <h3>T20 Cricket Analysis</h3>
-                <p><strong>Power BI | Excel | DAX | Power Query</strong></p>
-                <p>Conducted in-depth analysis of player performance, match statistics, and team strategies.Provided actionable insights to enhance team performance and game planning.</p>
-                <a href="https://github.com/shubhisoni13/T20-Cricket-Analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project6.jpg" alt="Project 3">
-                <h3>Credit Card Transaction Report</h3>
-                <p><strong>Power BI | Excel | DAX | Power Query</strong></p>
-                <p>Utilized statistical techniques and data visualization for detailed transaction analysis.Provided actionable insights to improve customer experience and transaction security.</p>
-                <a href="https://github.com/shubhisoni13/Credit-Card-Report" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project10.jpg" alt="Project 3">
-                <h3>HR Analytics</h3>
-                <p><strong>Power BI | Excel</strong></p>
-                <p>Enhanced data visualization and reporting capabilities, leading to improved HR operations and strategic planning.</p>
-                <a href="https://github.com/shubhisoni13/HR-Analysis" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project11.jpg" alt="Project 3">
-                <h3>Sales Insights</h3>
-                <p><strong>Power BI | Excel</strong></p>
-                <p>Developed a sales insights project leveraging data analytics tools to identify key trends and patterns, enabling data-driven decision-making and strategy sales optimization..</p>
-                <a href="https://github.com/shubhisoni13/Sales-Insights" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project7.jpg" alt="Project 3">
-                <h3>COVID-19 Analysis in India</h3>
-                <p><strong>Tableau | Excel</strong></p>
-                <p>Conducted data analysis on COVID-19 trends in India, leveraging statistical tools to track cases, mortality rates, and vaccination progress for actionable insights.</p>
-                <a href="https://github.com/shubhisoni13/Covid-19-Analysis-in-India" target="_blank" class="project-link">View on GitHub</a>
-            </div>
-        </section>
-    
-
-    <hr style="margin-top: 100px;" id="contact">
-
-    <section style="text-align: center;">
-        <h2 style="font-size: 3rem; color:#5e3051;">Contact</h2>
-    </section>
-
     <hr>
 
+      <div class="experience-container">
+        <div class="experience-card">
+          <h3>Edunet Foundation</h3>
+          <p><strong>AI & Cloud Intern</strong><br/>(July'24- Aug'24)</p>
+          <p>
+            Leveraged SkillsBuild and IBM Cloud for exploring emerging
+            technologies in AI and Cloud Computing.
+          </p>
+          <a
+            href="https://media.licdn.com/dms/image/v2/D4D2DAQFbJDq4BEnkrA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1723617063415?e=1738422000&v=beta&t=LVIv3gmYpvqFd9VSbsfy7aQ_qhQpBaS2HlCxROr8p8w"
+            target="_blank"
+            class="exp-link"
+            >Certificate of Completion</a
+          >
+        </div>
+        <div class="experience-card">
+          <h3>YBI Foundation</h3>
+          <p>
+            <strong>Python Programming Intern </strong><br />(June'24 - July'24)
+          </p>
+          <p>
+            Contributed to projects and training focused on technical
+            development and skill enhancement.
+          </p>
+          <a
+            href="https://media.licdn.com/dms/image/v2/D4D2DAQGRKqUYTC2zhQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720886477749?e=1738422000&v=beta&t=LS1bnER4MwTiOankUiJFspmxZ0pmdMPMblXLy6yJV2g"
+            target="_blank"
+            class="exp-link"
+            >Certificate of Completion</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+
+    <hr style="margin-top: 100px" id="certifications" />
+
+    <section class="certifications" style="text-align: center;">
+      <h2 style="font-size: 3rem; color: #5e3051">Certifications</h2>
+    </section>
+    <hr>
+    
+    <div class="certifications-container">
+      <div class="certification-card">
+        <h3>Career Essentials in Data Analysis</h3>
+        <p><strong>Microsoft & LinkedIn Learning</strong><br />(2023)</p>
+        <p>Completed training in fundamental data analysis skills, covering key concepts in analytics and visualization.</p>
+        <a href="https://media.licdn.com/dms/image/v2/D4D2DAQGRKqUYTC2zhQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720886477749?e=1738422000&v=beta&t=LS1bnER4MwTiOankUiJFspmxZ0pmdMPMblXLy6yJV2g"
+           target="_blank" class="exp-link">View Certificate</a>
+      </div>
+    
+      <div class="certification-card">
+        <h3>Analyst Certification</h3>
+        <p><strong>Tableau</strong><br />(2023)</p>
+        <p>Certified in data visualization and business intelligence, with hands-on experience using Tableau.</p>
+        <a href="https://media.licdn.com/dms/image/v2/D4D2DAQGRKqUYTC2zhQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720886477749?e=1738422000&v=beta&t=LS1bnER4MwTiOankUiJFspmxZ0pmdMPMblXLy6yJV2g"
+           target="_blank" class="exp-link">View Certificate</a>
+      </div>
+    
+      <div class="certification-card">
+        <h3>Python Essentials</h3>
+        <p><strong>Cisco & OpenEDG Python Institute</strong><br />(2024)</p>
+        <p>Gained foundational programming knowledge in Python, including problem-solving and algorithm development.</p>
+        <a href="https://media.licdn.com/dms/image/v2/D4D2DAQGRKqUYTC2zhQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720886477749?e=1738422000&v=beta&t=LS1bnER4MwTiOankUiJFspmxZ0pmdMPMblXLy6yJV2g"
+           target="_blank" class="exp-link">View Certificate</a>
+      </div>
+    </div>
+    
+
+    <!-- Projects Section -->
+    <hr style="margin-top: 130px" id="projects" />
+
+    <section style="text-align: center">
+      <h2 style="font-size: 3rem; color: #5e3051">Projects</h2>
+    </section>
+
+    <hr />
+
+    <section class="projects" style="padding-top: 4rem">
+      <div class="project">
+        <img src="project3.jpg" alt="Project 1" />
+        <h3>Customer Churn Analysis</h3>
+        <p><strong>SQL | Power BI | Machine Learning</strong></p>
+        <p>
+          Leveraging data extraction and preprocessing,interactive
+          visualizations, and Machine Learning to predict customer churn.
+          Features include Random Forest Algo., and actionable insights to
+          enhance retention strategies.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Churn-Analysis-n-Predictions"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project1.jpg" alt="Project 2" />
+        <h3>Ola Rides Analysis</h3>
+        <p><strong>SQL | Power BI | Excel </strong></p>
+        <p>
+          Conducted comprehensive analysis of Ola ride data to identify revenue
+          trends and ride patterns. Developed interactive dashboards to support
+          data-driven decisions and improve operational efficiency
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Ola-Analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 3" />
+        <h3>Blinkit Insights</h3>
+        <p><strong>Power BI | Excel | DAX</strong></p>
+        <p>
+          Analyzed Blinkit's order data to identify trends in order patterns and
+          improve delivery processes. Optimized data query performance using
+          DAX, reducing query time significantly.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Blinkit-analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project4.jpg" alt="Project 3" />
+        <h3>Amazon Sales Insights</h3>
+        <p><strong>SQL | Power BI | Excel </strong></p>
+        <p>
+          Analyzed global sales data to identify trends and optimize strategies,
+          leading to a 10% increase in sales. Created an interactive dashboard
+          to visualize key metrics and drive strategic decisions.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Amazon-Global-Analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project5.jpg" alt="Project 3" />
+        <h3>Wipro Stock Analysis</h3>
+        <p><strong>Power BI | Excel | DAX</strong></p>
+        <p>
+          Analyzed Wipro's stock performance, providing investment insights
+          through financial trend analysis. Developed interactive dashboards to
+          visualize stock movements and market trends
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Wipro-Stock-Analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project8.jpg" alt="Project 3" />
+        <h3>Zomato Advanced SQL Analysis</h3>
+        <p><strong> Advanced SQL | Excel </strong></p>
+        <p>
+          Performed advanced SQL queries to uncover trends in customer ratings,
+          popular cuisines and location preferences. Optimized data extraction
+          and reporting processes, improving business strategy efficiency.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Zomato-Advanced-SQL-Project"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project12.jpg" alt="Project 3" />
+        <h3>Netflix Trend Analysis</h3>
+        <p><strong>Python | Jupyter Notebook | Numpy | Pandas</strong></p>
+        <p>
+          Analyzed user behaviour and viewing patterns to predict future content
+          consumption trends. Optimized content strategy based on data insights.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Netflix-Analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project9.jpg" alt="Project 3" />
+        <h3>T20 Cricket Analysis</h3>
+        <p><strong>Power BI | Excel | DAX | Power Query</strong></p>
+        <p>
+          Provide a short overview of this project. Include any challenges you
+          overcame during development.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/T20-Cricket-Analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project6.jpg" alt="Project 3" />
+        <h3>Credit Card Transaction Report</h3>
+        <p><strong>Power BI | Excel | DAX | Power Query</strong></p>
+        <p>
+          Utilized statistical techniques and data visualization for detailed
+          transaction analysis.Provided actionable insights to improve customer
+          experience and transaction security.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Credit-Card-Report"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project10.jpg" alt="Project 3" />
+        <h3>HR Analytics</h3>
+        <p><strong>Power BI | Excel</strong></p>
+        <p>
+          Enhanced data visualization and reporting capabilities, leading to
+          improved HR operations and strategic planning.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/HR-Analysis"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project11.jpg" alt="Project 3" />
+        <h3>Sales Insights</h3>
+        <p><strong>Power BI | Excel</strong></p>
+        <p>
+          Developed a sales insights project leveraging data analytics tools to
+          identify key trends and patterns, enabling data-driven decision-making
+          and strategy sales optimization..
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Sales-Insights"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+      <div class="project">
+        <img src="project7.jpg" alt="Project 3" />
+        <h3>COVID-19 Analysis in India</h3>
+        <p><strong>Tableau | Excel</strong></p>
+        <p>
+          Conducted data analysis on COVID-19 trends in India, leveraging
+          statistical tools to track cases, mortality rates, and vaccination
+          progress for actionable insights.
+        </p>
+        <a
+          href="https://github.com/shubhisoni13/Covid-19-Analysis-in-India"
+          target="_blank"
+          class="project-link"
+          >View on GitHub</a
+        >
+      </div>
+    </section>
+
+    <hr style="margin-top: 100px" id="contact" />
+
+    <section style="text-align: center">
+      <h2 style="font-size: 3rem; color: #5e3051">Contact</h2>
+    </section>
+
+    <hr />
 
     <section class="contact">
-        <div class="contact-left">
-            <h5>Hi...</h5>
-            <p>Let's Connect</p>
-
-        </div>
-        <div class="contact-right">
-            <form action="" class="form" id="contact-form">
-                <input type="text" placeholder="Name" id="username">
-                <input type="email" placeholder="Email Address" id="email">
-                <input type="tel" placeholder="Contact Number" id="number">
-                <textarea placeholder="Write your message here..." id="message" cols="30" rows="10"></textarea>
-                <button type="button" onclick="sendMail()">Submit</button>
-            </form>
-            
-            
-        </div>
+      <div class="contact-left">
+        <h5>Hi...</h5>
+        <p>Let's Connect</p>
+      </div>
+      <div class="contact-right">
+        <form action="" class="form" id="contact-form">
+          <input type="text" placeholder="Name" id="username" />
+          <input type="email" placeholder="Email Address" id="email" />
+          <input type="tel" placeholder="Contact Number" id="number" />
+          <textarea
+            placeholder="Write your message here..."
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="button" onclick="sendMail()">Submit</button>
+        </form>
+      </div>
     </section>
 
     <section class="footer">
-        <div class="footer-1">
-            <img src="footer.jpg" alt="">
-            <p>Shubhi:Data Analyst, CSE student, tech enthusiast, passionate about creating innovative solutions and exploring new technologies.</p>
-        </div>
-        <div class="footer-2">
-            <h1>Links</h1>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="footer-2">
-            <h1>Social</h1>
-            <a href="https://www.linkedin.com/in/shubhi-soni13/">Linkedin</a>
-            <a href="https://github.com/shubhisoni13">Github</a>
-            <a href="https://fb.com/shubhisoni.soni.9">Facebook</a>
-            <a href="https://x.com/shubhisoni1301">Twitter</a>
-            <a href="https://www.instagram.com/shubhisoni.13/">Instagram</a>
-           
-           
-        </div>
+      <div class="footer-1">
+        <img src="footer.jpg" alt="" />
+        <p>
+          Shubhi:Data Analyst, CSE student, tech enthusiast, passionate about
+          creating innovative solutions and exploring new technologies.
+        </p>
+      </div>
+      <div class="footer-2">
+        <h1>Links</h1>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-2">
+        <h1>Social</h1>
+        <a href="https://www.linkedin.com/in/shubhi-soni13/">Linkedin</a>
+        <a href="https://github.com/shubhisoni13">Github</a>
+        <a href="https://fb.com/shubhisoni.soni.9">Facebook</a>
+        <a href="https://x.com/shubhisoni1301">Twitter</a>
+        <a href="https://www.instagram.com/shubhisoni.13/">Instagram</a>
+      </div>
     </section>
 
-    <section style="background-color: #5e3051; margin-top: -10px; margin-bottom: -20px;">
-        <hr style="margin-top: 0; margin-bottom: 0; background: #5e3051;">
-        <p style="text-align: center; margin-top: 0; padding-bottom: 5px; color: #fab2e6 ;">&copy; 2024 Shubhi Soni</p>
+    <section
+      style="background-color: #5e3051; margin-top: -10px; margin-bottom: -20px"
+    >
+      <hr style="margin-top: 0; margin-bottom: 0; background: #5e3051" />
+      <p
+        style="
+          text-align: center;
+          margin-top: 0;
+          padding-bottom: 5px;
+          color: #fab2e6;
+        "
+      >
+        &copy; 2024 Shubhi Soni
+      </p>
     </section>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['Data Analyst.'],
-            typeSpeed: 70,
-        });
+      var typed = new Typed("#element", {
+        strings: ["Data Analyst.", "Problem Solver.","Data Enthusiast."],
+        typeSpeed: 70,
+      });
     </script>
 
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
-        (function(){
-            emailjs.init("V9k16nXgd2h2QWrLt"); // Replace YOUR_USER_ID with your actual User ID from EmailJS
-        })();
-        
-        function sendMail() {
-    var name = document.getElementById("username").value;
-    var email = document.getElementById("email").value;
-    var number = document.getElementById("number").value;
-    var message = document.getElementById("message").value;
+      (function () {
+        emailjs.init("V9k16nXgd2h2QWrLt"); // Replace YOUR_USER_ID with your actual User ID from EmailJS
+      })();
 
-            emailjs.send("service_e5w453w", "template_p7a9j0d", {
-                from_name: name,
-        from_email: email,
-        contact_number: number,
-        message_html: message
-    })
-    .then(function(response) {
-        console.log("Email sent successfully", response);
-        alert("Your message has been sent successfully!");
-        document.getElementById("contact-form").reset();
-    }, function(error) {
-        console.log("Email sending failed", error);
-        alert("Oops! Something went wrong. Please try again later.");
-    });
-}
+      function sendMail() {
+        var name = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var number = document.getElementById("number").value;
+        var message = document.getElementById("message").value;
+
+        emailjs
+          .send("service_e5w453w", "template_p7a9j0d", {
+            from_name: name,
+            from_email: email,
+            contact_number: number,
+            message_html: message,
+          })
+          .then(
+            function (response) {
+              console.log("Email sent successfully", response);
+              alert("Your message has been sent successfully!");
+              document.getElementById("contact-form").reset();
+            },
+            function (error) {
+              console.log("Email sending failed", error);
+              alert("Oops! Something went wrong. Please try again later.");
+            }
+          );
+      }
     </script>
-
-</body>
+    
+  </body>
 </html>
